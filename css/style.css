@@ -1,0 +1,463 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: white;
+}
+
+header {
+  background-color: #2C3E50;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header h2 {
+  margin: 0;
+  margin-left: 130px;
+  font-size: 2rem;
+  color: white;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header ul a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  font-size: 1.5rem;
+}
+
+header ul a:hover {
+  color: #1ABC9C;
+  transition: color 1s;
+}
+
+nav {
+  background-color: #2C3E50;
+}
+
+.topNav li {
+  list-style: none;
+}
+
+.topNav a {
+  display: block;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 1.25rem;
+  /* transition: transform 1s; */
+}
+
+
+.topNav {
+  display: flex;
+}
+
+
+
+.nav  {
+  display: flex;
+  margin-left: 200px;
+}
+
+.nav a {
+  padding: 15px;
+}
+
+.contact {
+  margin-right: 130px;
+}
+
+.container {
+  text-align: center;
+  background-color: #1ABC9C;
+}
+
+.container img {
+  width: 240px;
+  margin-top: 75px;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+
+}
+
+.container h2 {
+  margin: 0;
+  padding: 30px 0 0;
+  font-size: 2rem;
+}
+
+.container p {
+  font-size: 1.5rem;
+  padding: 0 0 40px;
+}
+
+.container form {
+  padding: 20px;
+}
+
+.container input {
+  height: 30px;
+  /* margin: 75px auto; */
+}
+
+
+.container input, .container textarea {
+  border-radius: 3px;
+  padding: 0;
+  border: none;
+  width: 80%;
+}
+
+.container textarea {
+  height: 150px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+form p {
+  margin: 5px 0 20px;
+}
+
+
+
+input[type="submit"] {
+  margin-bottom: 35px;
+  cursor: pointer;
+  text-align: center;
+  width: 125px;
+  height: auto;
+  padding: 15px;
+  font-size: 1.25rem;
+  color: #2C3E50;
+  border-radius: 8px;
+  border: 1px solid #1ABC9C;
+
+}
+
+input[type="submit"]:hover {
+  background-color: #1ABC9C;
+  border: 1px solid white;
+  color: white;
+  transition: 700ms;
+}
+
+.cv {
+  color: #2C3E50;
+  text-align: center;
+}
+
+.cv h2 {
+  /* margin: 150px 0 50px 0; */
+}
+
+.summaryCV {
+  display: flex;
+  flex-direction: column;
+}
+
+.summaryCV div {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.summaryCV h3 {
+  text-align: center;
+}
+
+.portfolio {
+  color: #2C3E50;
+  font-size: 2rem;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin: 75px auto 30px;
+  font-size: 2.25rem;
+}
+
+.item {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;s
+}
+
+.item div {
+  height: 215px;
+  width: 315px;
+  border-radius: 5px;
+
+}
+
+.item a {
+  padding: 25px;
+}
+
+.bgItem1 {
+  background-color: #ba4c63;
+}
+
+.bgItem1 {
+  background-color: #ba4c63;
+}
+
+
+.bgItem:hover {
+  background-color: #1ABC9C;
+  transition: all linear 1s;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  background-color: #2C3E50;
+  text-align: center;
+  justify-content: center;
+}
+
+footer div {
+  margin: 0 50px;
+  font-size: 1.5rem;
+}
+
+footer p {
+  font-size: 1.5rem;
+}
+
+footer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+footer a {
+  padding: 0 15px;
+  color: grey;
+}
+
+footer a:hover {
+  color: #1ABC9C;
+  transition: 600ms;
+}
+
+table {
+  padding: 40px 15px;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+
+@media (min-width: 993px) {
+
+  .topNav a {
+    transition: transform 1s;
+  }
+
+  .topNav a:hover {
+    color: #1ABC9C;
+    transition: 700ms;
+    /* transform: scale(1.5); */
+  }
+
+  .topNav a {
+    margin-left: 50px;
+  }
+  .topNav i {
+    display: none;
+  }
+
+  .topNav h2 {
+    margin: 20px;
+  }
+
+  header {
+    height: 100px;
+      display: flex;
+  }
+
+
+  textarea {
+    width: 500px;
+  }
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+
+  header {
+    display: block;
+  }
+
+  .nav i {
+    display: inline-block;
+  }
+
+  .icon {
+    position: absolute;
+    top: 0px;
+  }
+
+  .topNav a {display: none;}
+
+  .topNav a.icon {
+    padding: 15px;
+    display: block;
+  }
+
+  .topNav.responsive {
+    /* position: relative; */
+    display: block;
+  }
+
+  .topNav.responsive .icon {
+    display: block;
+  }
+
+  .topNav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding: 15px;
+  }
+
+  textarea {
+    width: 350px;
+  }
+
+  header h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    /* width: 215px; */
+    font-size: 1.25rem;
+  }
+
+  header ul a {
+    padding: 5%;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+
+
+  .nav {
+    display: block;
+    margin: 0;
+  }
+
+  ul {
+    flex-direction: column;
+    margin: 0;
+    padding: 0px 25px;
+
+  }
+
+  /* Gestion de l'affichage du menu */
+  input[type="checkbox"]:not(:checked) ~ ul {
+  display: none;
+   }
+
+  input[type="checkbox"]:checked ~ ul {
+   display: flex;
+   }
+
+  /* Gestion de la checkbox */
+  input[type="checkbox"] + label:before {
+     font-family: FontAwesome;
+     font-size: 30px;
+  }
+
+  input[type="checkbox"] + label:before {
+    content: "\f0c9";
+  }
+
+  input[type="checkbox"]:not(:checked) + label:before {
+    content: "\f0c9";
+  }
+
+  input[type="checkbox"]:checked + label:before {
+    content: "\f00d";
+  }
+
+
+  /* input[type="checkbox"] {
+    position: relative;
+    left: 15.5%;
+    cursor: pointer;
+  } */
+
+  header ul a {
+    padding: 15px;
+  }
+
+
+
+  nav ul a:hover {
+    color: #2C3E50;
+}
+
+
+  .burger {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    padding: 10px 0;
+  }
+
+  .container img {
+    opacity: 0.5;
+    width: 200px;
+  }
+
+  header {
+    display: block;
+  }
+
+
+  header h2 {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 25px 0 0;
+  }
+
+  .cv h2 {
+    padding: 40px 0 20px;
+  }
+
+  textarea {
+    width: 175px;
+  }
+
+  form {
+    /* background-color: lightgray;
+  } */
+}

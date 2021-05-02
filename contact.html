@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Evaluation</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><h2>Loïc LE BUNETEL</h2></a>
+      <nav class='topNav' id="myTopnav">
+        <a href="index.html"><li>Accueil</li></a>
+        <a href="portfolio.html"><li></li>Portfolio</a>
+        <a  class='contact' href="contact.html"><li></li>Contact</a>
+        <a href="#" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      </nav>
+    </header>
+    <div class="container">
+      <h2>Pour me contacter</h2>
+      <form action="contact.html" method="post">
+        <div>
+          <label for="name">Votre nom: </label>
+          <p><input type="text" name="name" value="" required></p>
+        </div>
+        <div>
+          <label for="email">Votre email: </label>
+          <p><input type="email" name="name" value="" required></p>
+        </div>
+        <div>
+          <label for="sujet">Sujet: </label>
+          <p><input type="text" name="sujet" value="" required></p>
+        </div>
+        <div>
+          <label for="message">Message: </label>
+          <p><textarea name="message" required></textarea></p>
+        </div>
+        <div>
+          <input type="submit" name="envoyer" value="Envoyer">
+        </div>
+      </form>
+      <footer>
+        <div>
+          <h4>ADRESSE</h4>
+          <p>11 rue de la Servie<br />
+             30 000 NIMES
+          </p>
+        </div>
+        <div>
+          <h4>SUR LE WEB</h4>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </footer>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topNav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topNav";
+        }
+
+      }
+    </script>
+  </body>
+</html>

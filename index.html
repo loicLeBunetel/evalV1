@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Evaluation</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><h2>Loïc LE BUNETEL</h2></a>
+      <nav class='topNav' id="myTopnav">
+          <a href="index.html"><li></li>Accueil</a>
+          <a href="portfolio.html"><li></li>Portfolio</a>
+          <a class='contact' href="contact.html"><li></li>Contact</a>
+          <a href="#" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      </nav>
+    </header>
+    <div class="container">
+      <img src="images/avatars.svg" alt="Mon avatar">
+      <h1>CV Développeur web</h1>
+      <p>En reconversion professionnelle... </p>
+    </div>
+    <div class="cv">
+      <h2>CV</h2>
+      <div class="summaryCV">
+        <div>
+          <h3>Compétences</h3>
+          <ul class="competences">
+            <li>Rédaction des pièces administratives du DCE(RC, CCAP, AE)</li>
+            <li>Gestion de la plateforme de dématérialisation</li>
+            <li>Support et paramétrage logiciel achats(Gestion Demandes/Commandes d'achat, Bonde réception)</li>
+            <li>Rédaction/validation des rapports d'analyse des candidatures et offres.</li>
+            <li>Gestion administrative et financière (Avance,sous-traitance, situations mensuelles)</li>
+            <li>Suivi du marché de la définition du besoin jusqu'à son terme.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Expériences pro</h3>
+          <table>
+            <tr><td>Mairie de Mandelieu | 2017 - 2019</td> </tr>
+            <tr><td>BTM (Tramway Nice) | 2016</td></tr>
+            <tr><td>CPAM des Alpes-Maritimes | 2016</td></tr>
+            <tr><td>SKEMA BUSINESS SCHOOL | 2011 - 2014</td></tr>
+            <tr><td>Mairie du Bar sur Loup | 2010 - 2011</td></tr>
+            <tr><td>Direction de la stratégie et des travaux du CHU deNice | 2007 - 2009</td></tr>
+            <tr><td>SEM 92 (Société d'Economie Mixte des HautsdeSeine) | 2005 - 2007</td></tr>
+            <tr><td>Mairie de Toulon | 2004</td></tr>
+          </table>
+        </div>
+        <div class="formation">
+          <h3>Formation</h3>
+          <table>
+            <tr><th>Université de Montpellier</th></tr>
+            <tr><td>- DESS Contrats et marchés publics | 2004</td></tr>
+            <tr><td>- Maîtrise AES | 2003</td></tr>
+            <tr><td>AES : Administration Économique et Sociale -Formation pluridisciplinaire en droit,économie-gestion et sciences sociales</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <h4>ADRESSE</h4>
+        <p>11 rue de la Servie<br />
+           30 000 NIMES
+        </p>
+      </div>
+      <div>
+        <h4>SUR LE WEB</h4>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </footer>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topNav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topNav";
+        }
+
+      }
+    </script>
+  </body>
+</html>
